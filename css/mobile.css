@@ -94,5 +94,19 @@
   .cta-form {
     grid-template-columns: 1fr;
     gap: 3rem;
+    margin: 0 -19rem;
+  }
+
+  .container {
+    max-width: 120rem;
+    padding: 0;
+    margin: 0 0;
+  }
+
+  .projects-desc {
+    font-size: 3rem;
+    margin: 3rem -110px;
+    padding: 0 0;
+    width: 51rem;
   }
 }
