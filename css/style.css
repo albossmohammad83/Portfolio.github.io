@@ -1,14 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
 body {
   font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
 }
 
 .header {
@@ -26,7 +31,7 @@ body {
 
 .logo-link:link,
 .logo-link:visited {
-  color: #000;
+  color: inherit;
   text-decoration: none;
   margin-left: 2rem;
   display: flex;
@@ -71,7 +76,7 @@ body {
 .list-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #000;
+  color: inherit;
   font-weight: 700;
   transition: all 0.3s;
 }
@@ -80,6 +85,12 @@ body {
 .list-link:active {
   color: #6685c2;
   transform: scale(1.1);
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
 }
 
 .home {
@@ -104,6 +115,7 @@ body {
 
 .heading-1 {
   margin-top: 4rem;
+  text-align: center;
   font-size: 2.9rem;
   font-weight: 800;
   letter-spacing: 0.3rem;
@@ -213,8 +225,15 @@ body {
 }
 
 .section-contact {
+  background: linear-gradient(
+      to top,
+      rgba(245, 245, 245, 1),
+      rgba(245, 245, 245, 0.4)
+    ),
+    url("../img/background-img.jpg");
+  background-size: cover;
+  background-position: center;
   padding: 6rem 15rem;
-  background-color: #a9a9a941;
   display: flex;
   flex-direction: column;
   text-align: center;

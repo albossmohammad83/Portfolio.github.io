@@ -10,7 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="img/fav.jpg" />
     <link rel="stylesheet" href="css/style.css" />
-
+    <link rel="stylesheet" href="css/mobile.css" />
+    <script defer src="js/script.js"></script>
     <title>
       Mohammad Abdelrahman &mdash; Software Engineer &mdash; FullStack Engineer
     </title>
@@ -33,13 +34,15 @@
     </header>
 
     <section class="home" id="home-section">
-      <div class="hero">
-        <h1 class="heading-1">Hey, I'm Mohammad Abdelrahman</h1>
-        <p class="bio">
-          A Photographer, Software Engineer, and FullStack Engineer focused on
-          building Frontend and Backend Web Application
-        </p>
-        <a class="btn" href="#projects-section">Projects</a>
+      <div class="container">
+        <div class="hero">
+          <h1 class="heading-1">Hey, I'm Mohammad Abdelrahman</h1>
+          <p class="bio">
+            A Photographer, Software Engineer, and FullStack Engineer focused on
+            building Frontend and Backend Web Application
+          </p>
+          <a class="btn" href="#projects-section">Projects</a>
+        </div>
       </div>
       <div class="social-bar">
         <ul class="social-bar-list">
@@ -139,45 +142,47 @@
       </div>
     </section>
     <section class="section-contact" id="contact-section">
-      <h2 class="heading-2">Contact</h2>
-      <p class="projects-desc">
-        Feel free to Contact me by submitting the form below and I will get back
-        to you as soon as possible
-      </p>
-      <form class="cta-form" name="sign-up" netlify>
-        <div>
-          <label class="contact__form-label" for="name">Name</label>
-          <input
-            id="full-name"
-            type="text"
-            placeholder="John Smith"
-            name="full-name"
-            required
-          />
-        </div>
-        <div>
-          <label for="email">Email address</label>
-          <input
-            id="email"
-            type="email"
-            placeholder="me@example.com"
-            name="email"
-            required
-          />
-        </div>
-        <div class="textarea">
-          <label class="contact__form-label" for="message">Message</label>
-          <textarea
-            required=""
-            cols="25"
-            rows="10"
-            placeholder="Enter Your Message"
-            name="message"
-            id="message"
-          ></textarea>
-        </div>
-        <button class="btn--form">Submit</button>
-      </form>
+      <div class="container">
+        <h2 class="heading-2">Contact</h2>
+        <p class="projects-desc">
+          Feel free to Contact me by submitting the form below and I will get
+          back to you as soon as possible
+        </p>
+        <form class="cta-form" name="sign-up" netlify>
+          <div class="full-name">
+            <label class="contact__form-label" for="name">Name</label>
+            <input
+              id="full-name"
+              type="text"
+              placeholder="John Smith"
+              name="full-name"
+              required
+            />
+          </div>
+          <div class="email">
+            <label for="email">Email address</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="me@example.com"
+              name="email"
+              required
+            />
+          </div>
+          <div class="textarea">
+            <label class="contact__form-label" for="message">Message</label>
+            <textarea
+              required=""
+              cols="25"
+              rows="10"
+              placeholder="Enter Your Message"
+              name="message"
+              id="message"
+            ></textarea>
+          </div>
+          <button class="btn--form">Submit</button>
+        </form>
+      </div>
     </section>
     <footer class="main-footer">
       <div class="main-container">

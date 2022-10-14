@@ -1,0 +1,98 @@
+@media (max-width: 70em) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .full-name {
+    grid-column: 1 / -1;
+  }
+
+  .email {
+    grid-column: 1 / -1;
+  }
+
+  .textarea {
+    grid-column: 1 / -1;
+    padding: 0;
+  }
+
+  .btn--form {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 40em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .logo {
+    transform: translateX(-18%);
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .logo img {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .list {
+    font-size: 3rem;
+  }
+
+  .heading-1 {
+    margin-top: 15rem;
+  }
+
+  .bio {
+    font-size: 3rem;
+    margin: 8rem 8rem;
+  }
+
+  .btn {
+    padding: 2rem 8rem;
+    font-size: 2rem;
+  }
+
+  .social-bar {
+    top: 55%;
+    padding: 2rem;
+  }
+
+  .home-hero__social-icon {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .heading-2 {
+    font-size: 4.5rem;
+  }
+
+  .projects-desc {
+    font-size: 3rem;
+    margin: 3rem 0;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
