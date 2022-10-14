@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Mohammad Abdelrahman Software Engineer Portfolio website wepbage"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/fav.jpg" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>
+      Mohammad Abdelrahman &mdash; Software Engineer &mdash; FullStack Engineer
+    </title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a class="logo-link" href="index.html">
+          <img src="img/fav.jpg" alt="Mohammad Abdelrahman headshot" />
+          <p class="name">Mohammad Abdelrahman</p>
+        </a>
+      </div>
+      <nav class="nav">
+        <ul class="list">
+          <li><a class="list-link" href="#home-section">Home</a></li>
+          <li><a class="list-link" href="#projects-section">Projects</a></li>
+          <li><a class="list-link" href="#contact-section">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="home" id="home-section">
+      <div class="hero">
+        <h1 class="heading-1">Hey, I'm Mohammad Abdelrahman</h1>
+        <p class="bio">
+          A Photographer, Software Engineer, and FullStack Engineer focused on
+          building Frontend and Backend Web Application
+        </p>
+        <a class="btn" href="#projects-section">Projects</a>
+      </div>
+      <div class="social-bar">
+        <ul class="social-bar-list">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/mohammad-abdelrahman/"
+              class="home-hero__social-icon-link"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                src="https://d33wubrfki0l68.cloudfront.net/d8e6e1e636531e28274a1b8b6d947b817f6145bd/d42d3/assets/svg/linkedin-dark.svg"
+                alt="Mohammad Abdelrahman Linkedin Profile"
+                class="home-hero__social-icon"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/albossmohammad83"
+              class="home-hero__social-icon-link"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                src="https://d33wubrfki0l68.cloudfront.net/38469cf88d038b6ba3322c9fcb93a8f7167df4b9/cb0b9/assets/svg/github-dark.svg"
+                alt="Mohammad Abdelrahman Github Profile"
+                class="home-hero__social-icon"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/moeabdo94/"
+              class="home-hero__social-icon-link"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                src="img/camera.png"
+                alt="Mohammad Abdelrahman Photography webpage"
+                class="home-hero__social-icon"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-projects" id="projects-section">
+      <div class="project-info">
+        <h2 class="heading-2">Projects</h2>
+        <p class="projects-desc">
+          Here you will find some of the personal and clients projects that I
+          created
+        </p>
+      </div>
+      <div class="gallery">
+        <a
+          class="gallery-link"
+          href="https://albossmohammad83.github.io/EdgeLedger.github.io"
+          target="_blank"
+          ><img class="gallery-img" src="img/edgeledger.PNG" alt="buisness"
+        /></a>
+        <a
+          class="gallery-link"
+          href="https://albossmohammad83.github.io/omniFood.github.io"
+          target="_blank"
+          ><img
+            class="gallery-img"
+            src="img/omnifood.PNG"
+            alt="omnifood website"
+        /></a>
+        <a
+          class="gallery-link"
+          href="https://albossmohammad83.github.io/yogurt.github.io"
+          target="_blank"
+          ><img class="gallery-img" src="img/thickandcreamy.PNG" alt="yugert"
+        /></a>
+        <a
+          class="gallery-link"
+          href="https://albossmohammad83.github.io/NewsGrid.github.io"
+          target="_blank"
+          ><img class="gallery-img" src="img/newsgrid.PNG" alt="newsgrid"
+        /></a>
+        <a
+          class="gallery-link"
+          href="https://albossmohammad83.github.io/Hotel-HBT.github.io"
+          target="_blank"
+          ><img class="gallery-img" src="img/hbt.PNG" alt="hotel"
+        /></a>
+        <a
+          class="gallery-link"
+          href="https://albossmohammad83.github.io/Mobilebikerepairs.github.io"
+          target="_blank"
+          ><img class="gallery-img" src="img/bikerepair.PNG" alt="bikerepair"
+        /></a>
+      </div>
+    </section>
+    <section class="section-contact" id="contact-section">
+      <h2 class="heading-2">Contact</h2>
+      <p class="projects-desc">
+        Feel free to Contact me by submitting the form below and I will get back
+        to you as soon as possible
+      </p>
+      <form class="cta-form" name="sign-up" netlify>
+        <div>
+          <label class="contact__form-label" for="name">Name</label>
+          <input
+            id="full-name"
+            type="text"
+            placeholder="John Smith"
+            name="full-name"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Email address</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="me@example.com"
+            name="email"
+            required
+          />
+        </div>
+        <div class="textarea">
+          <label class="contact__form-label" for="message">Message</label>
+          <textarea
+            required=""
+            cols="25"
+            rows="10"
+            placeholder="Enter Your Message"
+            name="message"
+            id="message"
+          ></textarea>
+        </div>
+        <button class="btn--form">Submit</button>
+      </form>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <h2 class="heading heading-sm text-lt">Mohammad Abdelrahman</h2>
+          <p class="main-footer__short-desc">
+            A Frontend focused Web Developer building the Frontend of Websites
+            and Web Applications that leads to the success of the overall
+            product
+          </p>
+        </div>
+        <div class="main-footer__lower">
+          &copy; Copyright
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Made by
+          <a rel="noreferrer" target="_blank" href="index.html"
+            >Mohammad Abdelrahman</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
